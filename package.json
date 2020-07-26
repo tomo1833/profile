@@ -19,7 +19,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://github.com/tomo1833/profile/",
+  "homepage": "https://github.com//tomo1833//profile//",
   "eslintConfig": {
     "extends": "react-app"
   },
