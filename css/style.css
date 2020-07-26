@@ -1,0 +1,158 @@
+h1 {
+    display: block;
+    font-size: 10vw;
+    font-family: 'Great Vibes', cursive;
+    padding: 10px 2rem;
+    font-weight: bold;
+    margin: -10px;
+    color: #ffd700;
+    /* color: #FFA500; */
+    
+    text-shadow: 0 5px 5px rgb(112, 100, 76, 100);
+
+}
+
+h2 {
+    display: inline-block;
+    font-size: 3vw;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+    padding: 10px 0 10px 0;
+    margin: 0;
+    color: #000000;
+}
+
+p {
+    font-size: 18px;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.left-padding  {
+    padding: 10px 0 10px 2rem;
+}
+
+.discription {
+    padding: 20px 2rem;
+}
+
+.discription p {
+    display: block;
+    font-size: 3vw;
+    font-family: 'Great Vibes', cursive;
+    padding: 10px 2rem;
+    font-weight: bold;
+    margin: -10px;
+    color: #ffd700;
+    /* color: #FFA500; */
+    text-shadow: 0 5px 5px rgb(112 100 76);
+}
+
+.progress-label,
+.progress-info .progress-percentage span {
+    font-size: 16px;
+}
+
+.block-center {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* margin-top:-100px; */
+    /* padding-top:100px; */
+}
+
+.block-title,
+.block-top {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    position: -webkit-sticky;
+    position: sticky;
+    display: flex;
+}
+
+.light-theme {
+    color: #44476A;
+    background: #e6e7ee;
+}
+
+.dark-theme {
+    color: #ffffff;
+    background: #202225;
+}
+
+.block-slid-01 {
+    background-image: url("../img/engineer.jpg");
+    background-attachment:fixed;
+    background-size:cover;
+    z-index: 100;
+}
+
+.block-slid-02 {
+    overflow: hidden;
+    z-index: 200;
+}
+
+.block-slid-03 {
+    overflow: hidden;
+    z-index: 300;
+}
+
+.block-slid-04 {
+    background-image: url("../img/engineer.jpg");
+    background-attachment:fixed;
+    background-size:cover;
+    z-index: 400;
+}
+
+.strong-color-blue {
+    color: blue;
+    font-weight: bold;
+}
+
+.strong-color-red {
+    color: #FFA500;
+    font-weight: bold;
+}
+
+.scroll-pm {
+    padding-top: 57px;
+}
+
+.progress-info .progress-percentage {
+    width: 100px;
+}
+
+@media screen and (max-width:1400px) {
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .fixed-bottom {
+        display: none;
+    }
+
+    svg {
+        display: none;
+    }
+
+}
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        margin-top: 40px;
+        max-height: 50vh;
+    }
+}
+@media screen and (max-width:767px) {
+
+    .scroll-pm {
+        padding-top: 40px;
+    }
+}
